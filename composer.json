@@ -1,0 +1,21 @@
+{
+    "name": "chigix/chiji-release-extension",
+    "type": "library",
+    "description": "The Resources Releasing Manager and utils for chiji frontend tools.",
+    "keywords": ["Front-end", "Asset", "Chiji"],
+    "homepage": "http://www.chigix.com",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Richard Lea",
+            "email": "chigix@zoho.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "chigix/chiji": "dev-master"
+    },
+    "autoload": {
+        "psr-4": { "Chigi\\Chiji\\Plugin\\ReleaseExtension\\": "src/" }
+    }
+}

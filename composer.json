@@ -17,5 +17,6 @@
     },
     "autoload": {
         "psr-4": { "Chigi\\Chiji\\Plugin\\ReleaseExtension\\": "src/" }
-    }
+    },
+    "minimum-stability": "dev"
 }

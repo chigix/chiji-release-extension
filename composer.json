@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=5.4",
-        "chigix/chiji": "dev-master"
+        "chigix/chiji": "~1.0.0"
     },
     "autoload": {
         "psr-4": { "Chigi\\Chiji\\Plugin\\ReleaseExtension\\": "src/" }
